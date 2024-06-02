@@ -6,10 +6,10 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card shadow-lg">
-                    <div class="card-header bg-custom bg-yellow text-white">
+                    <div class="card-header bg-custom bg-primary text-white">
                         <h4 class="mb-0">Register Employee</h4>
                     </div>
-                    <div class="card-body bg-yellow">
+                    <div class="card-body bg-white">
                         <form method="POST" action="{{ route('employee.store') }}">
                             @csrf
                             <div class="form-row">
@@ -31,17 +31,17 @@
                                 </div>  
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-custom bg-pink btn-block">Register</button>
+                                <button type="submit" class="btn btn-custom bg-primary btn-block">Register</button>
                             </div>
                         </form>
                     </div>
                 </div>
 
                 <div class="card mt-5 shadow-lg">
-                    <div class="card-header bg-custom bg-yellow text-white">
+                    <div class="card-header bg-custom bg-primary text-white">
                         <h4 class="mb-0">Employee List</h4>
                     </div>
-                    <div class="card-body bg-gray">
+                    <div class="card-body bg-white">
                         <table class="table table-bordered table-striped">
                             <thead class="thead-custom bg-black">
                               <tr>
