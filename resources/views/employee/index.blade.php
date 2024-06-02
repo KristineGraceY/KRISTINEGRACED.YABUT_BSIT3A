@@ -9,7 +9,7 @@
                     <div class="card-header bg-custom bg-red text-white">
                         <h4 class="mb-0">Register Employee</h4>
                     </div>
-                    <div class="card-body bg-white">
+                    <div class="card-body bg-gray">
                         <form method="POST" action="{{ route('employee.store') }}">
                             @csrf
                             <div class="form-row">
@@ -38,7 +38,7 @@
                 </div>
 
                 <div class="card mt-5 shadow-lg">
-                    <div class="card-header bg-custom bg-primary text-white">
+                    <div class="card-header bg-custom bg-primary text-gray">
                         <h4 class="mb-0">Employee List</h4>
                     </div>
                     <div class="card-body bg-white">
