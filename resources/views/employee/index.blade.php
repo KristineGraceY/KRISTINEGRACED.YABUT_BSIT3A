@@ -65,7 +65,7 @@
                                         <a href="{{ route('employee.edit', $employee->id) }}" class="btn btn-warning btn-sm">
                                             <i class="fa fa-pencil-square-o"></i> Edit
                                         </a>
-                                        <form action="{{ route('employee.destroy', $employee->id) }}" method="POST" <div style="display: block; margin: 0 auto; text-align: center;">Your content here</div>">
+                                        <form action="{{ route('employee.destroy', $employee->id) }}" method="POST" style="display-inline">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-danger btn-sm">
