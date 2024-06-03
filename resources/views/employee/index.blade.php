@@ -31,7 +31,7 @@
                                 </div>  
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-custom bg-red btn-block">Register</button>
+                                <button type="submit" class="btn btn-custom bg-blues btn-block">Register</button>
                             </div>
                         </form>
                     </div>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="card-body bg-white">
                         <table class="table table-bordered table-striped">
-                            <thead class="thead-custom bg-black">
+                            <thead class="thead-custom bg-green">
                               <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">First Name</th>
