@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
+    <!-- <div class="container">
         <h3 align="center" class="mt-5">Employee Management</h3>
         <div class="row justify-content-center">
             <div class="col-md-8">
@@ -35,21 +35,22 @@
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="card mt-5 shadow-lg">
                     <div class="card-header bg-custom bg-primary text-gray">
-                        <h4 class="mb-0">Employee List</h4>
+                        <h4 class="mb-0">Users</h4>
                     </div>
+                        <h5>Users</h5>
                     <div class="card-body bg-white">
                         <table class="table table-bordered table-striped">
                             <thead class="thead-custom bg-green">
                               <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">First Name</th>
-                                <th scope="col">Last Name</th>
-                                <th scope="col">DOB</th>
-                                <th scope="col">Phone</th>
+                                <th scope="col">ID</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Admin</th>
                                 <th scope="col">Action</th>
                               </tr>
                             </thead>
